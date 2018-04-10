@@ -69,7 +69,8 @@ var controlador = {
             }
 
             var respuesta = {
-                peliculas: resultados
+                peliculas: resultados,
+                total: resultados.length
             }
 
             res.json(respuesta);
